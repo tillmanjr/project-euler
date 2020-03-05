@@ -1,18 +1,18 @@
-
 'use strict;'
 const euler = require('../tdjrEuler')
 const solution = require('./solution')
 
+
 /* ========================================== */
 /* Inputs                                     */
 
-const problemNumber = 3
+const problemNumber = 1
 
-const problemTitle = 'Largest prime factor'
+const problemTitle = 'Smallest multiple'
 
-const problemDefinition = `The prime factors of 13195 are 5, 7, 13 and 29.
+const problemDefinition = `2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
 
-What is the largest prime factor of the number 600851475143 ?`
+What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?`
 
 const expectedSolution = 42
 

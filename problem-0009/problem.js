@@ -1,18 +1,22 @@
-
 'use strict;'
 const euler = require('../tdjrEuler')
 const solution = require('./solution')
 
+
 /* ========================================== */
 /* Inputs                                     */
 
-const problemNumber = 3
+const problemNumber = 9
 
-const problemTitle = 'Largest prime factor'
+const problemTitle = 'Special Pythagorean triplet'
 
-const problemDefinition = `The prime factors of 13195 are 5, 7, 13 and 29.
+const problemDefinition = `A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
 
-What is the largest prime factor of the number 600851475143 ?`
+a^2 + b^2 = c^2
+For example, 3^2 + 4^2 = 9 + 16 = 25 = 52.
+
+There exists exactly one Pythagorean triplet for which a + b + c = 1000.
+Find the product abc.`
 
 const expectedSolution = 42
 

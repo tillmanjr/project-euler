@@ -1,18 +1,18 @@
-
 'use strict;'
 const euler = require('../tdjrEuler')
 const solution = require('./solution')
 
+
 /* ========================================== */
 /* Inputs                                     */
 
-const problemNumber = 3
+const problemNumber = 10
 
-const problemTitle = 'Largest prime factor'
+const problemTitle = 'Summation of primes'
 
-const problemDefinition = `The prime factors of 13195 are 5, 7, 13 and 29.
+const problemDefinition = `The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 
-What is the largest prime factor of the number 600851475143 ?`
+Find the sum of all the primes below two million.`
 
 const expectedSolution = 42
 

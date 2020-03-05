@@ -3,7 +3,6 @@
 const solveAsync = () => {
   return new Promise((resolve) => {
     resolve(42)
-
   })
 }
 
