@@ -2,18 +2,21 @@
 const euler = require('../tdjrEuler')
 const solution = require('./solution')
 
+//tdjr: solved 2020.03.04
+
 
 /* ========================================== */
 /* Inputs                                     */
 
 const problemNumber = 1
 
-const problemTitle = 'Placeholder for Problem Title'
+const problemTitle = 'Multiples of 3 and 5'
 
-const problemDefinition = `This is a placeholder
-for any given problem's definition`
+const problemDefinition = `If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
-const expectedSolution = 42
+Find the sum of all the multiples of 3 or 5 below 1000.`
+
+const expectedSolution = 233168
 
 /* ========================================== */
 
